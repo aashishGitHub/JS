@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="JS/jquery-1.11.3.js"></script>
+    <script src="JS/helper.js"></script>
+    <script src="JS/modules/luckCalculatorModule.js"></script>
+    <script src="JS/modules/homeModule.js"></script>
+    <script src="JS/bootstrap/js/bootstrap.js"></script>
+    <link href="JS/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            var examples = window.test.ns('examples');
+            var luckCalculator = examples.luckCalculatorModule;
+            //alert(luckCalculator.calculateLuck('ok'));
+
+            var homeModule = examples.homeModule;
+            homeModule.init(luckCalculator);
+        });
+    </script>
+    <title></title>
+</head>
+<body class="container">
+    <h3>Try your luck</h3>
+    <div class="form-group">
+        <label for="yname">Your Name:</label>
+        <input type="text" class="form-control" id="yname" />
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-primary" id="btnShow">Show</button>
+        <button type="button" class="btn btn-primary" id="btnAlert">Show Alert</button>
+    </div>
+    <div class="form-group">
+        <label>Your luck for today:</label>
+        <p class="form-control-static" id="luck"></p>
+    </div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-var name = "Rajiv Ranjan";
+var name = "Aashish Kumar";
 
 function getName() {
     var name = "AC";

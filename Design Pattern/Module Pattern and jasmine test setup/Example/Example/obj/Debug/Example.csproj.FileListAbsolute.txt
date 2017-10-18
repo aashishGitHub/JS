@@ -1,0 +1,6 @@
+C:\Study\design pattern\Example\Example\bin\Example.dll.config
+C:\Study\design pattern\Example\Example\bin\Example.dll
+C:\Study\design pattern\Example\Example\bin\Example.pdb
+C:\Study\design pattern\Example\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
+C:\Study\design pattern\Example\Example\obj\Debug\Example.dll
+C:\Study\design pattern\Example\Example\obj\Debug\Example.pdb

@@ -22,6 +22,18 @@ ScientificCalculator = {
 
 }
 
+function A(_name){
+this.name=_name;
+
+}
+
+function B(){
+A.prototype.call("Test");
+}
+
+B.prototype=Object.create(A.prototype);
+var b= new B();
+b.name;
 Calculator.prototype = ScientificCalculator;
 
 describe( "Calculator", function(){
